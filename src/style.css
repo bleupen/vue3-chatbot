@@ -1,0 +1,33 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 100%;
+  flex: 1;
+  position: relative;
+}
+
+#app {
+  display: flex;
+  max-height: 100%;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.ai-prompt-text {
+  line-height: 22px;
+}

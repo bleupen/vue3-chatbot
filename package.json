@@ -1,0 +1,23 @@
+{
+  "name": "vue3-chatbot",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "proxy": "proxy --server http://127.0.0.1:3000 --port 3003 --auth \"Basic YWRtaW46MTIz\""
+  },
+  "dependencies": {
+    "@entrinsik/informer-vue3": "^0.0.0-30-alpha",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@entrinsik/proxy-server": "^0.0.0-30-alpha",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
